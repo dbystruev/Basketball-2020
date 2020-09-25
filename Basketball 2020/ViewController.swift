@@ -72,7 +72,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         ballNode.physicsBody = SCNPhysicsBody(type: .dynamic, shape: SCNPhysicsShape(node: ballNode))
         
         // Calculate force for pushing the ball
-        let power = Float(5)
+        let power = Float(10)
         let x = -matrixCameraTransform.m31 * power
         let y = -matrixCameraTransform.m32 * power
         let z = -matrixCameraTransform.m33 * power

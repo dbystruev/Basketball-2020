@@ -13,6 +13,10 @@
 		699084B7251E0107006AC860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699084B5251E0107006AC860 /* Main.storyboard */; };
 		699084B9251E0108006AC860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699084B8251E0108006AC860 /* Assets.xcassets */; };
 		699084BC251E0108006AC860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699084BA251E0108006AC860 /* LaunchScreen.storyboard */; };
+		69D835D1251E3686008603DB /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D835CD251E3685008603DB /* Screenshot02.png */; };
+		69D835D2251E3686008603DB /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D835CE251E3685008603DB /* Screenshot01.png */; };
+		69D835D3251E3686008603DB /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D835CF251E3686008603DB /* Screenshot03.png */; };
+		69D835D4251E3686008603DB /* Screenshot04.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D835D0251E3686008603DB /* Screenshot04.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		699084B8251E0108006AC860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		699084BB251E0108006AC860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		699084BD251E0108006AC860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D835CD251E3685008603DB /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		69D835CE251E3685008603DB /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		69D835CF251E3686008603DB /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
+		69D835D0251E3686008603DB /* Screenshot04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot04.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,25 @@
 			children = (
 				699084AF251E0107006AC860 /* AppDelegate.swift */,
 				699084B1251E0107006AC860 /* art.scnassets */,
-				699084B3251E0107006AC860 /* ViewController.swift */,
-				699084B5251E0107006AC860 /* Main.storyboard */,
 				699084B8251E0108006AC860 /* Assets.xcassets */,
-				699084BA251E0108006AC860 /* LaunchScreen.storyboard */,
 				699084BD251E0108006AC860 /* Info.plist */,
+				699084BA251E0108006AC860 /* LaunchScreen.storyboard */,
+				699084B5251E0107006AC860 /* Main.storyboard */,
+				69D835D6251E3692008603DB /* Screenshots */,
+				699084B3251E0107006AC860 /* ViewController.swift */,
 			);
 			path = "Basketball 2020";
+			sourceTree = "<group>";
+		};
+		69D835D6251E3692008603DB /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				69D835CE251E3685008603DB /* Screenshot01.png */,
+				69D835CD251E3685008603DB /* Screenshot02.png */,
+				69D835CF251E3686008603DB /* Screenshot03.png */,
+				69D835D0251E3686008603DB /* Screenshot04.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +146,11 @@
 			files = (
 				699084B2251E0107006AC860 /* art.scnassets in Resources */,
 				699084BC251E0108006AC860 /* LaunchScreen.storyboard in Resources */,
+				69D835D2251E3686008603DB /* Screenshot01.png in Resources */,
 				699084B9251E0108006AC860 /* Assets.xcassets in Resources */,
+				69D835D1251E3686008603DB /* Screenshot02.png in Resources */,
+				69D835D4251E3686008603DB /* Screenshot04.png in Resources */,
+				69D835D3251E3686008603DB /* Screenshot03.png in Resources */,
 				699084B7251E0107006AC860 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
